@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="header">Corretora</h1>
+        <div class="house">
+            <form action="" id="house-register">
+                <label for="number">Número da Residência: </label>
+                <input type="text" name="number" id="number" required>
+
+                <label for="neighborhood">Bairro: </label>
+                <input type="text" name="neighborhood" id="neighborhood">
+
+                <label for="city">Cidade: </label>
+                <input type="text" name="city" id="city">
+
+                <label for="area">Área da Casa: </label>
+                <input type="number" name="area" id="area">
+
+                <button type="button" id="main-button" onclick="add()">Salvar</button>
+            </form>
+            <br>
+        </div>
+        <div id="list-container">
+            <h2>Casas Registradas</h2>
+            <ul id="list">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
